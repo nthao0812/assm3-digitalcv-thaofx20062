@@ -1,0 +1,39 @@
+/* ressponsive */
+
+/* laptop*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 16px;
+  font-weight: 500;
+  font-style: bold;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-row: auto;
+  gap: 20px;
+}
+
+/* In and Out */
+.scopes {
+  grid-area: 2/1/3/2;
+}
+
+/* timeline */
+.timeline {
+  grid-column: 1/-1;
+  grid-area: 1/3/3/4;
+}
+
+/* project */
+.dotted {
+  border-bottom: 1px dotted #f3e7f0;
+}
+/* Thank you */

@@ -1,0 +1,217 @@
+/* tablet 768 - 1200px */
+/* tablet  */
+@media (min-width: 768px) and (max-width: 1199px) {
+  /* ressponsive */
+
+  /* Can chinh banner  */
+  #banner {
+    height: 20vh;
+    padding: 20px;
+  }
+  #banner #banner-inner {
+    width: 100%;
+  }
+  #banner h1 {
+    font-size: 22px;
+    margin-bottom: 0;
+  }
+  .banner-avatar-1 .banner-avatar {
+    transform: translate(-50%, -45%);
+    width: 100px;
+    height: 100px;
+  }
+  #nav-bar {
+    padding: 10px 0;
+  }
+  #nav-bar .container {
+    height: auto;
+    width: auto;
+    padding: 10px 0;
+    display: flex;
+  }
+  #nav-bar a {
+    padding: 5px 10px;
+    font-size: 13px;
+    text-transform: capitalize;
+  }
+  .nav-bar-name {
+    width: auto;
+  }
+
+  /* Can chinh thong tin ca nhan va kinh nghiem */
+  #about .container {
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    font-size: 12px;
+  }
+  #about #personal-info {
+    padding-left: 30px;
+  }
+  #about #personal-info .section-title {
+    padding-left: 0px;
+  }
+  #about #personal-info ul {
+    padding-left: 0px;
+  }
+  #about #personal-info ol,
+  ul {
+    padding-left: 1rem;
+  }
+
+  .info-thongtin {
+    padding-left: 0;
+  }
+
+  #job-info .container {
+    grid-template-columns: repeat(2, 1fr);
+    width: 99%;
+    padding: 10px 5px;
+  }
+
+  #job-info .container-1 {
+    width: 100%;
+  }
+  .dots-1 {
+    border-width: 0;
+    width: 10px;
+    height: 10px;
+  }
+  .job-info-list ul {
+    padding-left: 0px;
+    font-size: 12px;
+  }
+  /* Can chinh ky nang so thich  */
+
+  #container-1 #container-1-innder {
+    font-size: 12px;
+  }
+  .hobbie-container {
+    padding-top: 6px;
+  }
+  #container-1 #job-info-list {
+    font-size: 12px;
+  }
+
+  /* Can chinh chung chi */
+  #certificate .container {
+    padding: 21px 14px;
+  }
+
+  .certificate-cc {
+    padding: 0 0;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .certificate-ct {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  .certificate-ct .cc-name {
+    font-size: 12px;
+  }
+
+  .certificate-ct .cc-name li {
+    padding-left: 0 0;
+  }
+
+  .certificate-ct h4 {
+    margin-bottom: 9px;
+    width: auto;
+    font-size: 15px;
+    padding: 5px;
+  }
+  .certificate-ct ul,
+  li {
+    padding-left: 0;
+  }
+
+  .certificate-ct {
+    border-bottom: 1px solid #d6c08d;
+    padding: 0 1px;
+  }
+
+  .certificate-ct:nth-child(2) {
+    border-left: 0 solid #d6c08d;
+    padding: 0 1px;
+  }
+
+  .certificate-ct:last-child {
+    border-top: 0px solid #d6c08d;
+  }
+
+  /* Can chinh du an  */
+
+  #project {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0px 0px;
+    font-size: 12px;
+    width: auto;
+  }
+  #project .container {
+    width: auto;
+    margin: 6px 22px;
+    padding: 0px 2px;
+    display: block;
+    font-size: 12px;
+    gap: 5px;
+  }
+  #project .project-content {
+    gap: 4px;
+    font-size: 12px;
+  }
+  .project-table p {
+    padding: 0px;
+  }
+  .table-left {
+    min-width: 70px;
+  }
+  /* can chinh 2021 va icon funix */
+  .prj-blue {
+    height: 26px;
+  }
+
+  .project-year {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .project-year-icon {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Can chinh hinh anh du an va khung text*/
+  .project-content .project-content1 .project-content-text {
+    height: 410px;
+  }
+  .project-content .project-content1 .project-content-text img {
+    width: auto;
+  }
+
+  .project-content .project-content1 .project-content-text .project-year {
+    border-bottom: 1px solid #ced4da;
+    display: flex;
+  }
+
+  /* Can chinh footer */
+
+  #footer .container {
+    width: auto;
+    margin: 0 0;
+    padding: 17px 32px;
+  }
+  #footer ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #footer a {
+    margin-top: 10px;
+  }
+  #footer footer-icon {
+    height: 5px;
+    width: 5px;
+  }
+}
+
+/* Thank you */

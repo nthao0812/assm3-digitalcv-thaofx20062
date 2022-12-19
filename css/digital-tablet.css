@@ -1,0 +1,47 @@
+/* tablet 768 - 1200px */
+/* tablet  */
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  /* khugn goal and scopes */
+  .goal .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .scopes .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* time line */
+  .timeline {
+    grid-area: auto;
+  }
+
+  .text-center.border-bottom {
+    border-bottom: 0;
+  }
+
+  .border-bottom.mb-5 {
+    margin-bottom: 10px;
+  }
+
+  /*IN OUT  */
+  .row.p-3.mb-5 {
+    padding: 15px 0 0 0;
+    margin-bottom: 0;
+  }
+
+  /* Timeline */
+  .rounded-circle {
+    width: 48px;
+    height: 48px;
+  }
+  .row .dotted:last-child {
+    margin-bottom: 20px;
+  }
+}
+/* thank you */

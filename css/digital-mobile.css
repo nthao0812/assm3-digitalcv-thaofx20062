@@ -1,0 +1,41 @@
+/* ressponsive */
+
+/* mobile (< 768px) */
+
+@media screen and (max-width: 767px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  .scopes {
+    grid-area: auto;
+  }
+
+  .timeline {
+    grid-area: auto;
+  }
+
+  .text-center.border-bottom {
+    border-bottom: 0;
+  }
+
+  .border-bottom.mb-5 {
+    margin-bottom: 10px;
+  }
+
+  /*IN OUT  */
+  .row.p-3.mb-5 {
+    padding: 15px 0 0 0;
+    margin-bottom: 0;
+  }
+
+  /* Timeline */
+  .rounded-circle {
+    width: 48px;
+    height: 48px;
+  }
+  .row .dotted:last-child {
+    margin-bottom: 20px;
+  }
+}
+/* Thank you */

@@ -1,0 +1,402 @@
+/* lap top */
+* {
+  margin: 0px;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  color: #000;
+}
+h1 {
+  margin-bottom: 22px;
+  font-size: 28px;
+  line-height: 1.1;
+  letter-spacing: 1px;
+}
+/* Navbar */
+#banner h1 {
+  font-size: 36px;
+  margin-bottom: 12px;
+}
+#banner span {
+  margin-top: 0;
+}
+.nav-bar-name {
+  width: 120px;
+}
+.bg-grey {
+  background: #f7f7f7;
+  text-decoration: none;
+}
+
+section .container {
+  width: 1170px;
+  margin: auto;
+  display: block;
+  padding: 30px 50px;
+  font-size: 14px;
+}
+
+#nav-bar {
+  text-align: center;
+  position: relative;
+}
+
+/* Căn chỉnh Banner và Img */
+
+#banner {
+  height: 50vh;
+  position: relative;
+  background-image: linear-gradient(rgb(34, 34, 34, 0.6), rgb(34, 34, 34, 0.6)),
+    url(../images/banner02.jpg);
+  background-size: cover;
+  color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 84px;
+  font-size: 24px;
+}
+
+#banner span {
+  font-size: 16px;
+  font-style: italic;
+}
+
+#banner-inner {
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%, -20%);
+}
+
+/* Can chinh Muc tieu nghe nghiep */
+
+#about .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10px 15px 20px 10px;
+  line-height: 1.5;
+}
+
+#about #personal-info {
+  padding-left: 80px;
+}
+
+.info-thongtin {
+  padding-left: 40px;
+  padding-top: 15px;
+  color: rgb(25, 116, 242);
+}
+
+/* Can chinh Thanh Nav Bar  */
+#nav-bar .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  height: 36px;
+}
+
+#nav-bar a {
+  display: inline-block;
+  padding: 0 16px;
+  text-decoration: none;
+  color: rgb(25, 116, 242);
+  text-transform: uppercase;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.nav-icon {
+  color: #1c7ed6;
+  display: inline-block;
+  margin-left: 8px;
+}
+
+/* Can chinh layout bo cuc Kinh nghiem - Hoc van */
+
+#job-info .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-row: 1fr 1fr;
+}
+
+#job-info .container-1 {
+  border: 1px solid #ced4da;
+  padding: 10px;
+  width: 320px;
+}
+
+.info-list {
+  padding: 12px 0px 0 0px;
+  list-style: none;
+}
+
+.time-exp {
+  font-style: italic;
+  padding: 10px 0;
+}
+.time-exp--present {
+  display: inline-block;
+  background-color: #1c7ed6;
+  padding: 0 12px;
+  border-radius: 5px;
+  color: #fff;
+}
+.job-info-title {
+  display: flex;
+  padding-left: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+.job-info-icon {
+  diplay: flex;
+  font-size: 36px;
+  color: #ced4da;
+  padding: right;
+}
+
+/* Can chinh nut icon  */
+.dots {
+  display: flex;
+  align-items: left;
+}
+
+.dots-1 {
+  background-color: #1c7ed6;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  margin-left: -30px;
+  border-width: 2px;
+  height: 15px;
+  width: 10px;
+}
+
+.dots h4 {
+  padding-left: 6px;
+}
+/*  Can chinh So Thich */
+
+.hobbie-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  padding-top: 32px;
+}
+
+.hobbie-container-amnhac,
+.hobbie-container-game,
+.hobbie-container-dulich,
+.hobbie-container-nauan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hb-icon {
+  width: 36px;
+  height: 36px;
+  border: 1px solid #1c7ed6;
+  color: #1c7ed6;
+  border-radius: 50%;
+  font-size: 18px;
+  text-align: center;
+  padding: 10px 5px 0px 5px;
+  margin: 5px;
+}
+
+/* Can chinh skill bar kinh nghiem - ngon ngu*/
+.container-1-innder {
+  margin-left: 30px;
+  margin-top: 5px;
+}
+.lang-name {
+  padding-top: 32px;
+}
+
+.lang-skillbar,
+.skill-skillbar {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 8px;
+}
+
+.skillbar-level-blue {
+  width: 45px;
+  height: 2px;
+  border-radius: 5px;
+  background-color: #1c7ed6;
+  margin-right: 12px;
+}
+
+.skillbar-level-grey {
+  background-color: #ced4da;
+}
+
+.skill-name {
+  padding-top: 32px;
+}
+
+/* CHUNG CHI GIAI THUONG */
+.certificate-cc {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding-top: 32px;
+}
+
+.certificate-ct {
+  display: flex;
+  margin-bottom: 32px;
+}
+.certificate-ct ul,
+li {
+  list-style: none;
+}
+
+.certificate-ct:nth-child(2) {
+  border-left: 1px solid #d6c08d;
+  padding: 0 16px;
+}
+.certificate-ct:nth-child(3) {
+  padding-top: 32px;
+  grid-column: 1 /-1;
+}
+.certificate-ct:last-child {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border-top: 1px solid #d6c08d;
+}
+
+.certificate-ct h4 {
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.section-title H2 {
+  margin-bottom: 16px;
+}
+.cc-img {
+  padding-right: 16px;
+}
+/* Can Chinh du an project */
+
+#project {
+  padding: 40px 70px;
+}
+.project-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 32px;
+}
+.project-content-text {
+  border: 1px solid #ced4da;
+  height: 450px;
+}
+.project-name {
+  border-bottom: 1px solid #ced4da;
+}
+.project-name p {
+  display: block;
+  padding: 16px;
+}
+.project-year {
+  border-bottom: 1px solid #ced4da;
+  display: flex;
+}
+.project-year-icon {
+  display: flex;
+  flex-direction: row;
+}
+.project-year span {
+  display: inline-block;
+  margin: 16px 12px;
+}
+.prj-blue {
+  color: #fff;
+  background-color: #1c7ed6;
+  padding: 4px 12px;
+  border-radius: 18px;
+  width: 60px;
+}
+
+.project-table {
+  border-bottom: 1px solid #ced4da;
+  display: flex;
+}
+.project-table p {
+  padding: 8px;
+}
+.table-left {
+  min-width: 96px;
+}
+.project-table:last-child {
+  border: none;
+}
+
+.project-content1 img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* Footer */
+
+#footer ul {
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  list-style: none;
+}
+#footer li {
+  padding: 16px 32px;
+}
+#footer a {
+  text-decoration: none;
+  color: rgb(100, 100, 100);
+  cursor: pointer;
+}
+
+.footer-icon {
+  padding: 8px;
+  background-color: #1c7ed6;
+  stroke: #fff;
+  border-radius: 50%;
+  color: #fff;
+}
+/* Phan nang cao */
+.banner-avatar {
+  border: 6px solid #fff;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, -20%);
+  width: 150px;
+  height: 150px;
+}
+
+/* Nang cao chen them link digital cv */
+
+.project-name a:link {
+  color: blue;
+  text-decoration: none;
+}
+.project-name a:visited {
+  color: blue;
+}
+.project-name a:hover {
+  color: blue;
+  font-weight: bold;
+}
+.project-name a:active {
+  background-color: #ca6b76;
+}
+
+/* Thank you */
